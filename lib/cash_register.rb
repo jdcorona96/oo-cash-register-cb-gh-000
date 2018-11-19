@@ -14,7 +14,7 @@ class CashRegister
 
   def apply_discount
     if (@discount == 0)
-      "There is no discount to apply"
+      "There is no discount to apply."
     elsif @discount >= 100
       "After the discount, the total comes to $0."
     else
