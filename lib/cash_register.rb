@@ -21,9 +21,9 @@ class CashRegister
       @total = @total * ((100-discount) / 100.0)
       "After the discount, the total comes to $#{@total.to_i}."
     end
+  end
 
-    def items
-    end
+  def items
   end
 
 end #class CashRegister
